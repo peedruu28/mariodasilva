@@ -1,0 +1,85 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: rgb(29, 27, 48);
+    opacity: 0.9;
+    text-align: center;
+}
+a{
+    color: seashell;
+}
+.header{
+    display: flex;
+    position: sticky;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+    background-color: rgb(29, 27, 48);
+    align-items: center;
+}
+.header img, a{
+    height: 50px;
+    padding: 10px;
+}
+#nav{
+    margin-right: 10px; 
+}
+main{
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.mission{ 
+    background-image: url("../media/card.jpg");
+    height: 510px;
+    width: 793px;
+    margin: auto;
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: column;
+}
+.missionInf{
+    background-color: black;
+    opacity: 0.5;
+}
+.work{
+    width: 1000px;
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.work img{
+    margin: 10px auto;
+    height: 200px;
+    width: 300px;
+}
+.work video{
+    margin: 10px auto;
+    height: 200px;
+    width: 300px;
+}
+.contact{
+    background-image: url("../img-locations-background.jpg");
+    height: 500px;
+    width: 1200px;
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 10px;
+}
+#cont{
+    width: 1200px;
+}
+.container{
+    color: rgba(255, 245, 238, 1);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    
+}
